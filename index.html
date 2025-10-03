@@ -1,0 +1,585 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sarthak Bhushan - Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- animation-->
+
+<div class = "loader-wrapper">
+
+    <div class="loader">
+
+        <div class="loader-text">S.B</div>
+        <div class="loader-circle"></div>
+        <div class="loader-circle"></div>
+        <div class="loader-circle"></div>
+
+    </div>
+
+</div>
+
+
+
+<!-- Add wrapper here -->
+<div class="main-container">
+
+    <!--Background shapes-->
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+    <div class="floating-shape shape-3"></div>
+
+    <!--header-->
+
+    <header class = "header">
+        <div class ="container header-container">
+            <div class="logo">S.<span>B.</span></div>
+            <nav class="nav">
+                <div class="nav-links">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#achievements" class="nav-link">Achievements</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!--hero-->
+
+
+    <section class="hero" id="home">
+        <div class ="hero-background"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-greeting">Hello there, I'm</div>
+                <h1 class="hero-title"><span class="gradient-text">Sarthak Bhushan</span></h1>
+                <h2 class="hero-subtitle">Developer</h2>
+                <p class="hero-description">
+                    Learning and building projects in software development, actively exploring new technologies and working to improve practical skill and understanding.
+                </p>
+                <div class = "hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work <i class = "fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Get In Touch
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="tel: +913682190783" class="social-link">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                    <a href="mailto: sarthakbhushan7s@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sarthakbhushan/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/SarthakBhushan" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-visual-inner">
+                    <div class="hero-visual-frame">
+                        <img src="images/profile.jpg" alt="profile" style="width: 90%;height: 90%; object-fit:cover; border-radius: 15px">
+                    </div>
+                    <div class="hero-visual-frame"></div>
+                    <div class="hero-visual-frame"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-indicator-line">
+                <div class="scroll-indicator-dot"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--about-->
+
+
+    <section class="section-about" id="about">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">
+                    My background and skills
+                </p>
+            </div>
+
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="about-tagline">My Background</div>
+                    <h3 class="about-heading">Currently, just a student.</h3>
+                    <p class="about-text">I am a student with a background in Electronics and Communication Engineering, working on a variety of software and system-level projects. I focus on blending core engineering concepts with software development to create practical, functional solutions.</p>
+                    <p class="about-text">My experience includes developing web portfolios using HTML and CSS, creating a Rubik's Cube simulator in Java with LWJGL, and working on face and hand sign detection systems using OpenCV. I’ve also explored 3D graphics, real-time simulations, and interactive interfaces in Java and Python environments.</p>
+                    <p class="about-text">I am currently building my skills in backend development using Spring Boot and frontend technologies like React and Angular. Alongside this, I am improving my problem-solving abilities through competitive programming and deepening my understanding of machine learning for real-world applications.</p>
+                    <!--Skills-->
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="skill-name">Java</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-name">Python</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-c"></i>
+                            </div>
+                            <div class="skill-name">C</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg"
+                                     alt="OpenCV"
+                                     style="width:30px; height:30px; filter: invert(24%) sepia(84%) saturate(560%) hue-rotate(240deg) brightness(95%) contrast(90%);">
+                            </div>
+                            <div class="skill-name">OpenCV</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="https://webimages.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png"
+                                     alt="MongoDB"
+                                     style="width: 50px; height: auto; filter: brightness(0) saturate(100%) invert(20%) sepia(90%) saturate(600%) hue-rotate(240deg);">
+                            </div>
+                            <div class="skill-name">MongoDB</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="skill-name">Spring Boot</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-image-container">
+                        <div class="about-image-bg"></div>
+                        <img src="images/coding.gif" alt="about" class="about-image">
+                    </div>
+                    <div class="about-decorations">
+                        <div class="about-decoration"></div>
+                        <div class="about-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!--projects-->
+
+
+
+    <section class="section projects" id="projects">
+
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">My Work</h2>
+                <p class=" section-subtitle">
+                    Explore some of my projects.
+                </p>
+            </div>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/building.gif" alt="Journal App">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">Spring Security</span>
+                            <span class="project-tag">Spring Authentication</span>
+                            <span class="project-tag">Mongo DB</span>
+                            <span class="project-tag">Post Man</span>
+                            <span class="project-tag">AWS</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Journal App using Spring Boot.
+                        </h3>
+                        <p class="project-description">In this project I have built a journal app using Spring Boot, also integrated Spring Security and an external weather API.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/SarthakBhushan/My-Journal-" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/minecraft.jpg" alt="Voxel Engine">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Moderngl</span>
+                            <span class="project-tag">PyGame</span>
+                            <span class="project-tag">PyGLM</span>
+                            <span class="project-tag">numba</span>
+                            <span class="project-tag">opensimplex</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Voxel Engine.
+                        </h3>
+                        <p class="project-description">A lightweight voxel engine built in Python, capable of rendering and interacting with 3D block-based worlds.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/SarthakBhushan/minecraft-clone" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/facerecog.webp" alt="Face Recognition">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">Open CV</span>
+                            <span class="project-tag">Haar Cascades</span>
+                            <span class="project-tag">Swing </span>
+                            <span class="project-tag">Maven </span>
+                            <span class="project-tag">Webcam Capture API</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Face Recognition using Open CV.
+                        </h3>
+                        <p class="project-description">A Java-based face recognition system using OpenCV for real-time face detection and identification.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/SarthakBhushan/face-detection" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--experience-->
+
+
+
+    <section class="section experience" id="experience">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">
+                    My journey and background
+                </p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa-solid fa-person-chalkboard"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-data">August 2024 - Present</div>
+                        <h3 class="timeline-title">Learning-Java | Swing | JavaFX</h3>
+                        <h4 class="timeline-subtitle">
+                            <a href="https://www.youtube.com/watch?v=xk4_1vDrzzo" target="_blank">
+                                BroCode
+                            </a>
+                        </h4>
+                        <p class="timeline-description">
+                            Learned java from BroCode and made my very first project of classic snake game.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa-solid fa-person-chalkboard"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-data">August 2024 - Present</div>
+                        <h3 class="timeline-title">Learning - Data Structures and Algorithm</h3>
+                        <h4 class="timeline-subtitle">
+                            <a href="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/" target="_blank">
+                                Striver
+                            </a>
+                        </h4>
+                        <p class="timeline-description">
+                            DSA improves your problem-solving skills, enables efficient coding, and is essential for cracking technical interviews.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa-solid fa-person-chalkboard"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-data">December 2025 - Present</div>
+                        <h3 class="timeline-title">Learning-Python | NumbPy | TensorFlow | OpenCV</h3>
+                        <h4 class="timeline-subtitle">
+                            <a href="https://www.youtube.com/watch?v=hDKCxebp88A" target="_blank">
+                                Free Code Camp
+                            </a>
+                        </h4>
+                        <p class="timeline-description">
+                            Studying Python enhances your ability to build diverse and powerful projects—like your face recognition system, image processing tools, and voxel engine—thanks to its simplicity, vast libraries (like OpenCV, TensorFlow, and Pygame), and strong support for AI, automation, and rapid prototyping.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa-solid fa-person-chalkboard"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-data">April 2025 - Present</div>
+                        <h3 class="timeline-title">Learning- Spring | Spring Boot</h3>
+                        <h4 class="timeline-subtitle">
+                            <a href="https://www.youtube.com/watch?v=1993zSY5UBI&list=PLA3GkZPtsafacdBLdd3p1DyRd5FGfr3Ue" target="_blank">
+                                Engineering Digest
+                            </a>
+                        </h4>
+                        <p class="timeline-description">
+                            Learning Spring Boot as a part of full stack developer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--achievements-->
+
+
+
+    <section class="section achievements" id="achievements">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">Achievements</h2>
+                <p class="section-subtitle">
+                    Growth and milestones
+                </p>
+            </div>
+            <div class="achievements-container">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3 class="achievement-title">Newbie Codeforces</h3>
+                    <p class="achievement-description">
+                        Started competitive programming on Codeforces to improve problem-solving and algorithmic skills. Currently just a newbie.
+                    </p>
+                </div>
+
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <h3 class="achievement-title">Autonomous Obstacle-Avoiding Car</h3>
+                    <p class="achievement-description">
+                        Built an obstacle-detecting car using ultrasonic sensors and microcontrollers for autonomous navigation.
+                    </p>
+                </div>
+
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                    <h3 class="achievement-title">First Machine Learning Model</h3>
+                    <p class="achievement-description">
+                        Developed my first machine learning model to detect and classify hand signs using image processing and computer vision techniques.
+                    </p>
+                </div>
+
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-code-branch"></i>
+                    </div>
+                    <h3 class="achievement-title">Git/Github</h3>
+                    <p class="achievement-description">
+                        Actively push code, track progress, and collaborate on GitHub to build a strong development workflow.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--contacts-->
+
+
+
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">
+                    Have a project in mind or want to collaborate? Let's talk!
+                </p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 class="contact-heading">Let's Build Something Amazing Together</h3>
+                    <p class="contact-text">
+                        I always open to opportunities and ideas.
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:sarthakbhushan7s@gmail.com" class="contact-link">
+                            <div class="contact-link-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-link-text">
+                                <span class="contact-link-label">Email</span>
+                                <span class="contact-link-value">sarthakbhushan7s@gmail.com</span>
+                            </div>
+                        </a>
+
+
+                        <a href="https://www.linkedin.com/in/sarthakbhushan/" target="_blank" class="contact-link">
+                            <div class="contact-link-icon">
+                                <i class="fas fa-linkedin-in"></i>
+                            </div>
+                            <div class="contact-link-text">
+                                <span class="contact-link-label">LinkedIn</span>
+                                <span class="contact-link-value">Sarthak Bhushan</span>
+                            </div>
+                        </a>
+
+
+                        <a href="https://www.instagram.com/sarthak_bhushan/?next=%2F" target="_blank" class="contact-link">
+                            <div class="contact-link-icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div class="contact-link-text">
+                                <span class="contact-link-label">Instagram</span>
+                                <span class="contact-link-value">sarthak_bhushan</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="d350e54b-192b-4008-ad8f-44e2dcabf249">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Rohit" />
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="text" class="form-control" name="email" id="email" placeholder="rohit@alpha.com" />
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" name="message" id="message" placeholder="Type your message here...." ></textarea>
+                        </div>
+
+                        <button class="btn btn-primary" type="submit">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--footer-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">Sarthak Bhushan</a>
+                    <p class="footer-text">
+                        Focused on building impactful software solutions that address real-world challenges with precision.
+                    </p>
+                    <div class="footer-social">
+                        <a href="mailto:sarthakbhushan7s@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sarthakbhushan/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/SarthakBhushan" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links-container">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="#home" class="footer-link">
+                            <i class="fas fa-chevron-right"></i> Home
+                        </a>
+                        <a href="#about" class="footer-link">
+                            <i class="fas fa-chevron-right"></i> About
+                        </a>
+                        <a href="#projects" class="footer-link">
+                            <i class="fas fa-chevron-right"></i> My Work
+                        </a>
+                        <a href="#experience" class="footer-link">
+                            <i class="fas fa-chevron-right"></i> Experience
+                        </a>
+                        <a href="#achievements" class="footer-link">
+                            <i class="fas fa-chevron-right"></i> Achievements
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links-container">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="https://www.instagram.com/sarthak_bhushan/?next=%2F" class="footer-link">
+                            <i class="fas fa-chevron-right"></i> Instagram
+                        </a>
+                        <a href="https://www.linkedin.com/in/sarthakbhushan/" class="footer-link">
+                            <i class="fas fa-chevron-right"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</div> <!-- End of .main-container -->
+
+<!--custom script-->
+<script src="js/script.js"></script>
+</body>
+
+</html>
